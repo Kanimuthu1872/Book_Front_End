@@ -1,0 +1,54 @@
+{
+  "books": [
+    {
+      "id": "101",
+      "bookTitle": "Life of KM",
+      "authorId": "1",
+      "bookPrice": "201"
+    },
+    {
+      "id": "102",
+      "bookTitle": "Hallow Crown",
+      "authorId": "2",
+      "bookPrice": "1000"
+    },
+    {
+      "id": "1022",
+      "bookTitle": "Interstellar",
+      "authorId": "2",
+      "bookPrice": "9090"
+    },
+    {
+      "id": "103",
+      "bookTitle": "Harry Potter",
+      "authorId": "3",
+      "bookPrice": "10000"
+    },
+    {
+      "id": "11",
+      "bookTitle": "Loop",
+      "authorId": "1",
+      "bookPrice": "9000"
+    },
+    {
+      "id": "10333",
+      "bookTitle": "Harry Potter4",
+      "authorId": "3",
+      "bookPrice": "20000"
+    }
+  ],
+  "authors": [
+    {
+      "id": "1",
+      "name": "Kanimuthu"
+    },
+    {
+      "id": "2",
+      "name": "Christopher Nolen"
+    },
+    {
+      "id": "3",
+      "name": "J.K. Rowling"
+    }
+  ]
+}

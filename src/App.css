@@ -1,0 +1,109 @@
+/* styles.css or a relevant CSS file */
+
+.container {
+  transition: box-shadow 0.3s ease; /* Remove transform scale */
+}
+
+
+
+.card {
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+.btn {
+  transition: background-color 0.3s ease; /* Remove transform effect */
+}
+
+.btn:hover {
+  background-color: rgba(0, 123, 255, 0.8); /* Keep color change on hover */
+}
+
+/* Remove fade-in effect */
+
+
+/* App.css */
+
+.table-hover tbody tr:hover {
+  background-color: #f5f5f5; /* Remove or keep light gray on hover */
+}
+
+.table th, .table td {
+  vertical-align: middle; /* Center content vertically */
+}
+
+.table th {
+  font-weight: bold; /* Make header bold */
+}
+
+.table td {
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.9; /* Slightly dim the button on hover */
+}
+
+/* Center table title */
+h3 {
+  font-family: 'Arial', sans-serif;
+  color: #343a40; /* Dark gray color for the title */
+}
+
+.transparent-form {
+  background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+  border-radius: 10px; /* Rounded corners */
+  backdrop-filter: blur(10px); /* Blur effect behind the card */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+  padding: 20px; /* Padding inside the card */
+}
+
+.transparent-form:hover {
+  /* Remove transform scale on hover */
+}
+
+/* Form control styles */
+.form-control {
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for inputs */
+}
+
+/* App.css */
+body {
+  background-image: url('https://bestanimations.com/Books/book-pages-turning-animated-gif.gif'); /* Update the path as necessary */
+  background-size: cover; /* Cover the entire screen */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-attachment: fixed; /* Fix the background when scrolling */
+  min-height: 100vh; /* Ensure the body takes at least full viewport height */
+}
+
+.container {
+  backdrop-filter: blur(10px); /* Optional: adds a nice blur effect */
+  border-radius: 10px; /* Optional: round the corners */
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  border: none; /* Remove border */
+}
+
+.btn-light {
+  background: rgba(255, 255, 255, 0.6); /* Light button with transparency */
+  color: green; /* Text color */
+}
+
+.text-danger {
+  color: red; /* Ensure error messages are visible */
+}
+.btn-spin {
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.btn-spin:hover {
+  transform: rotate(360deg); /* Spin the button */
+}
